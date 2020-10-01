@@ -1,0 +1,21 @@
+.calendar-plate {
+	&__item {
+		width: 22px;
+		text-align: center;
+		font-style: 17px;
+		font-weight: 500;
+		color: #DFDFDF;
+		cursor: pointer;
+		&-disable {
+			color: rgba(223, 223, 223, 0.24);
+		}
+	}
+}
+
+.current {
+	color: #3D3D3D;
+	background-color: #FDD000;
+	padding: 15px;
+	width: 52px;
+	margin: -15px;
+}
